@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEE;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
+.nav a {
+    display: inline-block;
+    flex-basis: 25%;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+    color: gray;
+    font-size: 13px;
+}
+.nav a img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 5px auto;
+}
+
+.train img {
+    width: 100%;
+}
+
+.live {
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #FFF;
+}
+.live p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.live img {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.focus {
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #FFF;
+}
+.focus p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.focus-link {
+    margin-top: 5px;
+    overflow: hidden;
+}
+.focus-link-left {
+    float: left;
+}
+.focus-link-right {
+    float: right;
+}
+.focus-link a img {
+    width: 165px;
+}
+
+.popularity {
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+.popularity p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.popularity p span{
+    margin-left: 10px;
+}
+.popularity hr {
+    border: none;
+    background-color: #EEE;
+    height: 1px;
+    margin: 10px auto;
+}
+.popularity a {
+    color: #000;
+}
+.popularity span {
+    font-size: 12px;
+    color: gray;
+    font-weight: normal;
+}
+.popularity img {
+    float: left;
+    width: 50px;
+}
+.popularity-description {
+    float: left;
+}
+.popularity-data {
+    float: right;
+}
+.popularity-data p {
+    font-weight: normal;
+    text-align: right;
+    color: red;
+}
+
+.expert {
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #FFF;
+}
+.expert p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.expert-block {
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 10px;
+    background: linear-gradient(180deg, orange, yellow);
+    color: #FFF;
+}
+.expert-block span {
+    font-size: 12px;
+}
+.expert-link {
+    margin-top: 5px;
+    overflow: hidden;
+}
+.expert-link-left {
+    float: left;
+}
+.expert-link-right {
+    float: right;
+}
+.expert-link img {
+    width: 160px;
+}
+.expert-table {
+    background-color: #FFF;
+    color: gray;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+.expert-table p {
+    font-weight: normal;
+}
+.expert-description {
+    float: left;
+}
+.expert-data {
+    float: right;
+    position: relative;
+}
+.expert-data::after {
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 1px;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+    background-color: #DDD;
+}
+.expert-data p {
+    text-align: right;
+    color: red;
+}
